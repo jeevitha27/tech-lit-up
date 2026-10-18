@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tech Light Up – Empowering Abilities</title>
+<link rel="stylesheet" href="styles.css"></head><body>
+<header>
+<span class="logo"><svg class="turb" viewBox="0 0 100 130" aria-hidden="true"><path d="M47 44h6l3 82H44z" fill="#262d5e"/><g class="bl"><path d="M50 37C46 24 47 12 50 1C53 12 54 24 50 37z" fill="#262d5e"/><path d="M50 37C46 24 47 12 50 1C53 12 54 24 50 37z" fill="#2c8f84" transform="rotate(120 50 40)"/><path d="M50 37C46 24 47 12 50 1C53 12 54 24 50 37z" fill="#1f6f9a" transform="rotate(240 50 40)"/></g><circle cx="50" cy="40" r="6" fill="#d6336c"/><circle cx="50" cy="40" r="2.2" fill="#fff"/></svg> <span class="wm"><span class="wt"><b class="w1">Tech</b> <b class="w2">Light</b> <b class="w3">Up</b></span><small>Empowering Abilities</small></span></span>
+<nav id="nav" aria-label="Main"></nav>
+<div class="tools"><button id="fs" aria-label="Increase text size">A+</button><button id="hc" aria-pressed="false" aria-label="High contrast">◐</button><button id="rd" aria-label="Read page aloud">🔊</button></div>
+</header>
+<main>
+<section id="home" class="on">
+<div class="hero"><div><h1>Empowering Abilities</h1><p class="lead">...because talent has no limits.</p>
+<p>Technology for everyone. Opportunity for every ability. Hire talented artists and groups from our partner NGOs, book workshops, volunteer your skills, or find your next career step.</p>
+<button class="btn" data-go="hire">Hire artists</button><button class="btn alt" data-go="volunteer">Volunteer</button><button class="btn ghost" data-go="talent">Meet talent</button></div>
+<div class="orbit" id="orbit" aria-hidden="true"></div></div>
+<div data-mq="home"></div>
+<div class="emp" id="emp"></div>
+<h2>Our vision: why we do this</h2><div class="hband" id="hband" role="img" aria-label="People of all abilities singing, dancing, coding and learning around a wind turbine"></div>
+<div class="vis1"><p><b>Technology for everyone. Opportunity for every ability.</b> Talented people in our partner NGOs often lack a stage, skills training and a path to work. Tech Light Up connects them with the people who can offer all three.</p><h3>Why we need this</h3><div class="grid" id="why"></div></div>
+<div class="stats" id="stats"></div>
+<h2>Choose your city</h2><div class="chips" id="cityChips" role="group" aria-label="City filter"></div>
+<h2>Our partner NGOs</h2><div class="chips" id="catChips" role="group" aria-label="NGO category"></div>
+<div class="grid" id="ngoGrid"></div>
+<h2 style="margin-top:1.5rem">Workshops you can book</h2><p class="sub">Every workshop is designed for <b>specially abled</b> people and <b>underprivileged</b> students. Choose one and we will reach out.</p><div class="grid" id="wsGrid"></div>
+<h2 style="margin-top:2rem">Upcoming workshops</h2><p class="sub">Meet the people who will conduct each workshop.</p><div id="up"></div>
+<h2 style="margin-top:2rem">Workshops &amp; Learning Initiatives</h2><p class="sub"><b>At Christel House</b> · A look at our earlier CSR workshops with school students and volunteers.</p><div class="gal" id="pw"></div>
+<h2 style="margin-top:2rem">Moments of Connection &amp; Impact</h2><p class="sub"><b>At Unnati Foundation</b> · Valedictory Function, Batch 219 &amp; 220 · Interactions, shared experiences and the people behind our initiative.</p><div class="mos" id="mc"></div>
+<h2 style="margin-top:2rem">Register for a workshop</h2><form data-f id="rf" style="margin-top:1.5rem"><h2>Register</h2><label>Class</label><select id="rc"></select><label>Name</label><input required><label>Email or phone</label><input required>
+<button class="btn" type="submit">Register</button><div class="ok" role="status">You are registered!</div></form>
+</section>
+
+<section id="ngos"><h1>NGOs and their volunteering needs</h1><p class="sub">Sample data – replace with your NGO list.</p><div id="needs"></div></section>
+
+<section id="talent"><h1>🌟 Talent directory</h1>
+<div class="row"><input id="q" placeholder="Search name or talent…" aria-label="Search"><button class="btn alt" id="mic" style="flex:0 0 auto">🎤 Voice</button>
+<select id="ft" aria-label="Talent"></select><select id="fk" aria-label="Type"><option value="">Individual or group</option><option>Individual</option><option>Group</option></select></div>
+<div class="grid" id="tGrid" style="margin-top:1rem"></div>
+<h2>Performance glimpse</h2><div class="gal" id="gal"></div>
+<h2 style="margin-top:2rem" id="fh">Add a profile</h2>
+<form id="pf"><input type="hidden" id="pid">
+<label for="pn">Name</label><input id="pn" required><label for="pa">Age</label><input id="pa" type="number" min="5" max="99" required>
+<label for="pc">City</label><select id="pc"><option>Bangalore</option><option>Chennai</option></select>
+<label for="pt">Talent</label><input id="pt" required placeholder="e.g. Bharatnatyam, Singing, Coding">
+<label for="pm">Community / NGO</label><input id="pm" required><label for="pk">Type</label><select id="pk"><option>Individual</option><option>Group</option></select>
+<label><input type="checkbox" id="cs" required style="width:auto"> I consent to showing this profile publicly.</label>
+<button class="btn" type="submit">Save profile</button><div class="ok" id="pok" role="status">Profile saved!</div></form></section>
+
+<section id="volunteer"><h1>Ready to Make a Difference Beyond Donations? <span style="color:var(--c)">Then Volunteer</span></h1><p class="sub ty"><span class="ghost" aria-hidden="true">Take a break from your regular work, step into a new experience, and share your time, skills, and knowledge to empower others. Explore volunteering opportunities through this platform and discover how a small step from you can create a lasting impact in someone’s life.<br><b>Step forward. Share your skills. Empower abilities.</b></span><span class="typed" aria-hidden="true"><span id="ty"></span><br><b id="ty2"></b><span id="cr">|</span></span></p><p class="sr">Take a break from your regular work, step into a new experience, and share your time, skills, and knowledge to empower others. Explore volunteering opportunities through this platform and discover how a small step from you can create a lasting impact in someone’s life. Step forward. Share your skills. Empower abilities.</p>
+<div class="vis"><div class="mos vg" id="vg"></div><div>
+<h2 style="margin-top:0">Where you can help</h2>
+<p>We listened to NGOs. Their practical needs include:</p>
+<ul><li><b>Scribes and readers</b> for training sessions</li><li><b>Dance practice support</b> and accompanists</li><li><b>Tech mentors</b> and interview coaches</li><li><b>Communication trainers</b> and confidence coaches</li></ul>
+<p>Not sure where you fit? Tell us your skills and availability in the form below and we will match you with an NGO that needs them. Whether you give an hour or every week, you help a talented person take the next step.</p>
+<button class="btn" id="vgo">I want to help</button><button class="btn alt" data-go="ngos">Learn more</button></div></div>
+<h2>How volunteering works</h2>
+<div class="stp"><div class="card"><b class="n">1</b><h3>Tell us about you</h3><p>Fill the form with your skills, city and the NGO you would like to support.</p></div><div class="card"><b class="n">2</b><h3>We match you</h3><p>We connect you with a real need from the NGOs we have listened to.</p></div><div class="card"><b class="n">3</b><h3>Show up and shine</h3><p>Teach, mentor, accompany or simply be there, and watch confidence grow.</p></div></div>
+
+<form data-f><label>Name</label><input required><label>Email or phone</label><input required><label>City</label><select><option>Bangalore</option><option>Chennai</option></select>
+<label>NGO of interest</label><select id="vn"></select><label>How can you help?</label><select><option>Teaching</option><option>Mentoring</option><option>Event support</option><option>Tech help</option><option>Scribe / reader</option></select>
+<label>Message</label><textarea rows="3"></textarea><button class="btn" type="submit">Submit interest</button><div class="ok" role="status">Thank you! We will reach out soon.</div></form></section>
+
+<section id="hire"><h1>🎭 Hire artists for your event</h1><p class="sub">Corporate events, temple festivals, celebrations – give talented artists a stage.</p>
+<h2>Featured talent</h2><div class="grid" id="feat"></div><p class="q">“Sunadha artists may not see the world, but they make the world feel their music.”</p><h2>Request a booking</h2>
+<form data-f><label>Your name / organisation</label><input required><label>Contact (email or phone)</label><input required>
+<label>Event type</label><select><option>Corporate event</option><option>Temple event</option><option>Festival celebration</option><option>School / community</option></select>
+<label>Talent needed</label><select id="hn"></select><div class="row"><div><label>Date</label><input type="date" required></div><div><label>City</label><select><option>Bangalore</option><option>Chennai</option></select></div></div>
+<label>Details</label><textarea rows="3"></textarea><button class="btn" type="submit">Request booking</button><div class="ok" role="status">Request received! We will contact you shortly.</div></form></section>
+
+<section id="experts">
+<div class="xh"><div><p class="kick">MEET OUR</p><h1>Experts &amp; Sessions</h1>
+<p class="lead">Learn from our inspiring community leaders. Explore workshops, book sessions, and be part of their journey in creating a bigger impact through knowledge, skills and experience.</p>
+<div class="xf"><div><i id="fi1"></i><span>Learn from<br>real experiences</span></div><div><i id="fi2"></i><span>Gain practical<br>skills &amp; knowledge</span></div><div><i id="fi3"></i><span>Support inclusive<br>growth &amp; opportunities</span></div></div></div>
+<div class="blocks" aria-hidden="true"><b>Learn</b><b>Grow</b><b>Make an Impact</b></div></div>
+<div id="xlist"><div class="row xbar"><div class="chips" id="xc" role="group" aria-label="Expert category" style="flex:3 1 300px"></div><input id="xq" placeholder="Search experts…" aria-label="Search experts" style="flex:1 1 180px"></div>
+<div class="grid" id="xg"></div>
+<div class="xban"><div><h3>Inspire. Learn. Create Impact.</h3><p>Explore our experts, find the right session for you, and be part of a community that empowers.</p></div><button class="btn alt" id="xall">View all experts</button></div>
+<h2 id="xbk">Book a session</h2>
+<form data-f><label>Expert</label><select id="xs"></select><label>Your name / organisation</label><input required><label>Contact (email or phone)</label><input required><label>Group and size</label><input placeholder="e.g. 30 students, a corporate team"><label>What do you need?</label><textarea rows="3"></textarea><button class="btn" type="submit">Request session</button><div class="ok" role="status">Request received! We will check availability and reach out.</div></form></div>
+<div id="xdet" hidden></div>
+</section>
+<section id="careers"><h1>💼 Careers</h1><p class="sub">Sample openings – edit in the data list.</p><h2 style="margin-top:1.2rem">Careers, outcomes &amp; call to action</h2>
+<p>Beyond performances: the Careers tab lists job openings with clear descriptions. Corporates can post roles to reach trained candidates. You do not need a large donation to change lives. Give time, skills, a booking or a referral.</p>
+<div class="mos cg" id="cg"></div>
+<div class="stp"><div class="card"><b class="n">1</b><h3>Small actions, big impact</h3><p>Mentor, volunteer, hire an artist, or share an opportunity.</p></div><div class="card"><b class="n">2</b><h3>Scan and connect</h3><p>Fill the form or scan the QR code to join as a partner, volunteer or recruiter.</p></div><div class="card"><b class="n">3</b><h3>Be the light</h3><p>Leadership is lighting the way for someone else. Today, you can start one opportunity.</p></div></div>
+<h2>Open roles</h2><p>Corporates: contact us and we will list your openings here.</p>
+<div id="jobs"></div></section>
+
+
+</main>
+<footer>Made with 💜 by Team Tech Light Up · Prototype – forms are demo only until a backend is connected.</footer>
+<script src="app.js"></script></body></html>

@@ -1,0 +1,1 @@
+{ "name": "tech-light-up", "private": true, "scripts": { "start": "npx serve ." } }

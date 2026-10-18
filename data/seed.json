@@ -1,0 +1,703 @@
+{
+  "ngos": [
+    {
+      "n": "Samarthanam International",
+      "c": "Bangalore",
+      "a": "HSR Layout",
+      "k": "Blind & Specially Abled",
+      "p": "ngo_sam",
+      "d": "Our workshops here start after Oct 15.",
+      "needs": [
+        "Scribes & readers",
+        "Dance practice support",
+        "Tech mentors"
+      ]
+    },
+    {
+      "n": "Win Vinaya",
+      "c": "Bangalore",
+      "a": "",
+      "k": "Specially Abled",
+      "p": "ngo_win",
+      "d": "Past Utopus CSR partner.",
+      "needs": [
+        "Event volunteers",
+        "Communication coaches"
+      ]
+    },
+    {
+      "n": "Unnati Foundation",
+      "c": "Bangalore",
+      "a": "",
+      "k": "Underprivileged",
+      "p": "ngo_unn",
+      "d": "Free 35-day training that leads youth to employment.",
+      "needs": [
+        "Interview mentors",
+        "Soft-skills trainers"
+      ]
+    },
+    {
+      "n": "Vindhya",
+      "c": "Bangalore",
+      "a": "",
+      "k": "Specially Abled",
+      "p": "ngo_vin",
+      "d": "Skills, jobs and AI-driven inclusion for persons with disabilities, women and underserved communities.",
+      "needs": [
+        "Digital skills trainers",
+        "Career guidance"
+      ]
+    }
+  ],
+  "workshops": [
+    [
+      "sc:dance",
+      "Dance & Movement",
+      [
+        "Specially abled",
+        "Visually challenged students"
+      ],
+      "Bharatnatyam choreography that builds rhythm, expression and stage confidence."
+    ],
+    [
+      "sc:comm",
+      "Effective Communication",
+      [
+        "Specially abled",
+        "Underprivileged youth"
+      ],
+      "Speechcraft sessions to find your voice and tell your story."
+    ],
+    [
+      "sc:ai",
+      "AI & Technology Awareness",
+      [
+        "Underprivileged students",
+        "Specially abled"
+      ],
+      "Hands-on introduction to technology and AI, with accessible tools."
+    ],
+    [
+      "sc:music",
+      "Singing & Music",
+      [
+        "Specially abled",
+        "Visually challenged artists"
+      ],
+      "Voice, rhythm and stage presence for budding singers and musicians."
+    ],
+    [
+      "sc:social",
+      "Social Media Awareness",
+      [
+        "Underprivileged youth",
+        "Specially abled"
+      ],
+      "Stay safe online and showcase your talent to the world."
+    ],
+    [
+      "sc:craft",
+      "Craft & Arts",
+      [
+        "Underprivileged children",
+        "Specially abled"
+      ],
+      "Painting and craft that turn creativity into a livelihood."
+    ],
+    [
+      "sc:hotel",
+      "Hotel Management",
+      [
+        "Specially abled",
+        "Underprivileged youth"
+      ],
+      "A path into hospitality careers, from the kitchen to the front desk."
+    ]
+  ],
+  "jobs": [
+    [
+      "Company Trainee / Apprentice (deaf candidates)",
+      "Build a career in the solar energy industry. Rs 17,000 to Rs 18,000 per month plus shift allowance and bonus. Posted by Win Vinaya Foundation.",
+      "Tirunelveli"
+    ],
+    [
+      "Dance Performer / Instructor",
+      "Perform at events and teach Bharatnatyam and movement workshops.",
+      "Bangalore"
+    ],
+    [
+      "Singer / Musician",
+      "Live performances for corporate and cultural events.",
+      "Bangalore"
+    ],
+    [
+      "Craft Artisan",
+      "Create handmade crafts and run craft workshops.",
+      "Chennai"
+    ],
+    [
+      "Customer Support Associate",
+      "Handle chat and email queries; training provided.",
+      "Bangalore"
+    ],
+    [
+      "Junior Web Developer",
+      "Build and test simple web pages with HTML, CSS and JS.",
+      "Chennai"
+    ],
+    [
+      "Front Desk Executive",
+      "Greet guests and manage bookings (hospitality).",
+      "Bangalore"
+    ],
+    [
+      "Data Entry Operator",
+      "Accurate data entry; screen-reader friendly tools.",
+      "Chennai"
+    ]
+  ],
+  "experts": [
+    {
+      "id": "jeevitha",
+      "n": "Jeevitha Pandurangaiah",
+      "ini": "JP",
+      "r": "Data Engineer, Vestas | Toastmasters Club President",
+      "cats": [
+        "Communication & Public Speaking",
+        "Technology & Data"
+      ],
+      "tp": "Data Engineering · Public Speaking · Career Growth",
+      "d": "Builds the data platforms wind turbines run on, and helps people speak in front of a room without dreading it.",
+      "cover": "jv",
+      "ph": "jv",
+      "role": [
+        "Expert Speaker",
+        "Mentor",
+        "Trainer / Facilitator"
+      ],
+      "facts": [
+        "Bengaluru",
+        "7 years of experience"
+      ],
+      "li": "https://www.linkedin.com/in/jeevitha-p-3b908857/",
+      "src": "https://www.gullyfuture.com/people/jeevitha-pandurangaiah",
+      "about": [
+        "Jeevitha builds large-scale data platforms at Vestas, in wind energy. She turns industrial data from turbines into datasets that machine learning, predictive maintenance and analytics can actually use.",
+        "Across seven years she has moved through front-end development, AI/ML, data engineering and research. She began at Pramati Technologies, built conversational AI on RASA and a recommendation engine at Sutra Networks, led PySpark and AWS migration work at Carelon Global Solutions, and joined Vestas in 2022.",
+        "During her Master’s she spent a year as a research assistant on virtual reality sensor tracking, work that improved tracking accuracy and led to an IEEE publication.",
+        "She holds an MS in Data Science from East Carolina University and a BE in Computer Science from Don Bosco Institute of Technology, and is certified on Databricks, SnowPro, Dataiku and AWS Solutions Architect.",
+        "She is also president of the Vestas Bangalore Toastmasters club, so alongside technical sessions she is a go-to person for speaking in front of a room with confidence."
+      ],
+      "talk": [
+        "What a data engineer does, and how it differs from data science",
+        "Going abroad for a Master’s: the decision, the cost and the return",
+        "Moving from front-end development into data",
+        "Speaking in front of a room when you would rather not"
+      ],
+      "exp": [
+        "Data engineering",
+        "Big data and PySpark",
+        "AWS and Azure",
+        "Databricks and Snowflake",
+        "Machine learning",
+        "Docker and Kubernetes",
+        "Public speaking"
+      ],
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Public Speaking",
+        "Communication",
+        "Career Growth"
+      ],
+      "avail": [
+        "Sessions",
+        "Workshops",
+        "Mentoring"
+      ],
+      "across": [
+        "Education",
+        "Careers"
+      ]
+    },
+    {
+      "id": "manjunath",
+      "n": "CM Manjunath",
+      "ini": "CM",
+      "r": "Corporate Trainer | Storytelling & Communication Facilitator | Digital Marketing Trainer",
+      "cats": [
+        "Communication & Public Speaking",
+        "Leadership & Personal Growth"
+      ],
+      "tp": "Storytelling · Leadership Communication · Digital Marketing",
+      "d": "Helps tech, sales and leadership teams tell stories that win buy-in. Has trained 5,000+ professionals.",
+      "cover": "xw",
+      "role": [
+        "Corporate Trainer",
+        "Storytelling Facilitator",
+        "Keynote Speaker"
+      ],
+      "facts": [
+        "10+ years of training",
+        "5,000+ professionals trained"
+      ],
+      "li": "https://www.linkedin.com/in/cmmanjunath/",
+      "show": [
+        [
+          "xw",
+          "Project Management Workshop for Women Leaders at Wabtec",
+          "cover"
+        ],
+        [
+          "xo",
+          "Open House Session, Vestas Bangalore Toastmasters Club (Division C), 5 August 2026. Keynote speech by Manjunath.",
+          "contain"
+        ]
+      ],
+      "about": [
+        "<b>“Most professionals don’t lose the room because they lack expertise. They lose it because they can’t tell their story.”</b>",
+        "Manjunath helps tech, sales and leadership teams turn what they know into stories people remember and act on.",
+        "For over a decade he has trained 5,000+ professionals in digital marketing. Today he combines that with storytelling and communication, because even the best strategy still has to be explained, pitched and sold.",
+        "Recent sessions: he facilitated the Project Management Workshop for Women Leaders at Wabtec, and delivered the keynote at the Vestas Bangalore Toastmasters Open House (Division C) on 5 August 2026."
+      ],
+      "sec": [
+        [
+          "What he works on",
+          [
+            "Leadership communication and stakeholder conversations",
+            "Technical and sales storytelling: turning complex solutions into clear business narratives",
+            "Presentations and talks that get remembered, repeated and shared",
+            "Digital marketing taught hands-on: SEO, Google and Meta Ads, content, affiliate and email marketing, analytics"
+          ]
+        ],
+        [
+          "Where he has done this",
+          [
+            "Digital marketing trainer with Simplilearn since 2020, including end-to-end cohort coaching on programmes with Purdue University and SP Jain School of Global Management",
+            "Facilitator with Unbox Experience on storytelling, leadership, innovation and sales enablement journeys for enterprise teams",
+            "Workshops for Manipal ProLearn, Vodafone Qatar, colleges and startups",
+            "Certified through Craig Valentine’s World Class Speaking Coach Program"
+          ]
+        ],
+        [
+          "Who he works with",
+          [
+            "L&D and HR leaders planning programmes for sales or leadership teams",
+            "Organisations looking for a keynote speaker on storytelling, digital marketing and sales",
+            "Professionals who want a practical, hands-on digital marketing mentor"
+          ]
+        ]
+      ],
+      "exp": [
+        "Storytelling",
+        "Leadership communication",
+        "Sales storytelling",
+        "Stakeholder conversations",
+        "Keynote speaking",
+        "Digital marketing",
+        "SEO",
+        "Google and Meta Ads",
+        "Content marketing",
+        "Analytics"
+      ],
+      "topics": [
+        "Storytelling",
+        "Leadership",
+        "Sales Enablement",
+        "Public Speaking",
+        "Digital Marketing"
+      ],
+      "avail": [
+        "Keynotes",
+        "Workshops",
+        "Corporate training",
+        "Mentoring"
+      ],
+      "across": [
+        "Corporate L&D",
+        "Sales teams",
+        "Colleges and startups"
+      ]
+    },
+    {
+      "id": "srujana",
+      "n": "Srujana Kodati",
+      "ini": "SK",
+      "r": "SDE at IBM | Full Stack | AI | Bharatnatyam Dancer",
+      "cats": [
+        "Technology & Data",
+        "Arts & Culture"
+      ],
+      "tp": "Full-Stack Development · Generative AI · Bharatnatyam",
+      "d": "Builds scalable full-stack and AI-powered applications, and brings classical dance to the stage.",
+      "cover": "sj",
+      "ph": "sj",
+      "role": [
+        "Software Engineer",
+        "Bharatnatyam Dancer"
+      ],
+      "facts": [
+        "3+ years of experience",
+        "IBM"
+      ],
+      "li": "https://www.linkedin.com/in/srujana-kodati-8255b3211/",
+      "show": [
+        [
+          "sj1",
+          "Bharatnatyam group performance",
+          "cover"
+        ],
+        [
+          "sj3",
+          "Duet on stage",
+          "cover"
+        ],
+        [
+          "sj4",
+          "Group performance",
+          "cover"
+        ]
+      ],
+      "about": [
+        "Srujana is a software engineer at IBM with 3+ years of experience building scalable full-stack applications.",
+        "She works with React and Angular on the front end and Python and Scala on the back end, and designs efficient systems on PostgreSQL and DB2.",
+        "Her current focus is AI-powered applications built with Generative AI and Agentic AI systems.",
+        "She is strong in data structures, system design and problem solving.",
+        "Beyond code, she is a Bharatnatyam dancer and serves on the Execution Committee for our Dance & Movement workshop."
+      ],
+      "sec": [
+        [
+          "What she works on",
+          [
+            "Full-stack web applications with React, Angular, Python and Scala",
+            "Generative AI and Agentic AI applications",
+            "Scalable system design on PostgreSQL and DB2",
+            "Data structures and problem solving"
+          ]
+        ],
+        [
+          "Beyond the code",
+          [
+            "Bharatnatyam performances, solo and in groups",
+            "Execution Committee, Dance & Movement workshop"
+          ]
+        ]
+      ],
+      "exp": [
+        "React",
+        "Angular",
+        "Python",
+        "Scala",
+        "PostgreSQL",
+        "DB2",
+        "Generative AI",
+        "Agentic AI",
+        "System design",
+        "Data structures"
+      ],
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Full-Stack Development",
+        "Classical Dance"
+      ],
+      "avail": [
+        "Sessions",
+        "Workshops"
+      ],
+      "across": [
+        "Technology",
+        "Arts & Culture"
+      ]
+    }
+  ],
+  "upcomingWorkshops": [
+    {
+      "t": "Workshop 1: Dance & Movement (Bharatnatyam)",
+      "w": "Starting after Oct 15 · Samarthanam International, HSR Layout, Bangalore",
+      "reg": "Dance",
+      "c": [
+        [
+          "wb",
+          "Beneficiary Community",
+          "Samarthanam International: trained Bharatnatyam dancers"
+        ],
+        [
+          "wg",
+          "Guidance Committee",
+          "Prathiba Narayani, Hreem Kari School"
+        ],
+        [
+          "we",
+          "Execution Committee",
+          "Arul, Srujana, Swathi, Jeevitha. Content creators: Shanmukha, Mahantesh"
+        ]
+      ]
+    },
+    {
+      "t": "Workshop 2: Effective Communication Skills",
+      "s": [
+        [
+          "Foundation Building",
+          "Understanding communication basics and setting the stage for growth"
+        ],
+        [
+          "Personal Story Development",
+          "Crafting and sharing authentic, compelling narratives"
+        ],
+        [
+          "Speech Delivery",
+          "Techniques for confident, impactful public speaking"
+        ],
+        [
+          "Feedback & Improvement",
+          "Constructive evaluation and continuous growth"
+        ],
+        [
+          "Leadership Development",
+          "Leading discussions and mentoring others to excel"
+        ]
+      ],
+      "w": "Toastmasters Speechcraft programme · Samarthanam / Win Vinaya",
+      "reg": "Communication Skills",
+      "c": [
+        [
+          "art:ngo",
+          "Beneficiary Community",
+          "Samarthanam and Win Vinaya"
+        ],
+        [
+          "art:person",
+          "Guidance Committee",
+          "Arvind, Anugrah"
+        ],
+        [
+          "art:comm",
+          "Execution Committee",
+          "Trevita, Sapna, Sandhi, Niraj, Swapnil, Abhinaba, Kirti. Content creators: Shanmukha, Mahantesh"
+        ]
+      ]
+    }
+  ],
+  "unnatiMoments": [
+    [
+      "m1",
+      "A hall full of future leaders",
+      "big"
+    ],
+    [
+      "m2",
+      "Welcome to the Valedictory Function",
+      "tall"
+    ],
+    [
+      "m3",
+      "Sharing the journey",
+      "tall"
+    ],
+    [
+      "m4",
+      "Students experience sharing",
+      "sq"
+    ],
+    [
+      "m5",
+      "Stepping up to speak",
+      "sq"
+    ],
+    [
+      "m6",
+      "Stories from the heart",
+      "tall"
+    ],
+    [
+      "m7",
+      "Listening, learning, growing",
+      "tall"
+    ],
+    [
+      "m8",
+      "Welcomed with a smile",
+      "big"
+    ],
+    [
+      "m9",
+      "Celebrating Batch 219 & 220",
+      "wide"
+    ]
+  ],
+  "peopleWeEmpower": [
+    [
+      "p_singer",
+      "Singers & musicians",
+      "Singing and music workshops"
+    ],
+    [
+      "p_dancer",
+      "Dancers",
+      "Bharatnatyam and movement"
+    ],
+    [
+      "p_boy",
+      "Tech learners",
+      "Technology and AI awareness"
+    ],
+    [
+      "p_coder",
+      "Digital creators",
+      "Coding, skills and careers"
+    ],
+    [
+      "p_girl",
+      "Online learners",
+      "Communication and social media"
+    ],
+    [
+      "p_man",
+      "Achievers",
+      "Confidence and education"
+    ]
+  ],
+  "whyWeNeedThis": [
+    [
+      "pov",
+      "No Poverty",
+      "Underprivileged youth get free training and a route to work.",
+      "#d6336c"
+    ],
+    [
+      "health",
+      "Good Health & Well-being",
+      "Dance, music and art build confidence and wellbeing.",
+      "#2c8f84"
+    ],
+    [
+      "edu",
+      "Quality Education",
+      "Workshops in AI, technology and communication reach learners who rarely get them.",
+      "#262d5e"
+    ],
+    [
+      "gen",
+      "Gender Equality",
+      "Women with disabilities and from underserved communities get equal access to skills and stages.",
+      "#1f6f9a"
+    ],
+    [
+      "work",
+      "Decent Work & Growth",
+      "Career listings, mentors and paid performances create dignified livelihoods.",
+      "#d6336c"
+    ],
+    [
+      "ind",
+      "Industry & Innovation",
+      "Technology and AI awareness opens digital careers for everyone.",
+      "#2c8f84"
+    ],
+    [
+      "en",
+      "Clean Energy for All",
+      "Our turbine symbol stands for light, energy and progress for everyone.",
+      "#262d5e"
+    ],
+    [
+      "par",
+      "Partnerships",
+      "NGOs, volunteers and companies work together for lasting change.",
+      "#1f6f9a"
+    ]
+  ],
+  "expertCategories": [
+    "All Experts",
+    "Communication & Public Speaking",
+    "Technology & Data",
+    "Leadership & Personal Growth",
+    "Arts & Culture",
+    "Wellness & Lifestyle"
+  ],
+  "expertCategoryColors": {
+    "Communication & Public Speaking": "#d6336c",
+    "Technology & Data": "#1f6f9a",
+    "Leadership & Personal Growth": "#c98a14",
+    "Arts & Culture": "#6c4a9c",
+    "Wellness & Lifestyle": "#2c8f84"
+  },
+  "cities": [
+    "Bangalore",
+    "Chennai"
+  ],
+  "talent": [
+    {
+      "id": 1,
+      "n": "Renuka",
+      "a": 0,
+      "c": "Bangalore",
+      "t": "Bharatnatyam",
+      "m": "Samarthanam (Sunadha)",
+      "k": "Individual",
+      "ph": "renuka"
+    },
+    {
+      "id": 2,
+      "n": "Sridevi",
+      "a": 0,
+      "c": "Bangalore",
+      "t": "Bharatnatyam",
+      "m": "Samarthanam (Sunadha)",
+      "k": "Individual",
+      "ph": "sridevi"
+    },
+    {
+      "id": 3,
+      "n": "Chinnari",
+      "a": 0,
+      "c": "Bangalore",
+      "t": "Bharatnatyam",
+      "m": "Samarthanam (Sunadha)",
+      "k": "Individual",
+      "ph": "chinnari"
+    },
+    {
+      "id": 4,
+      "n": "Usha",
+      "a": 0,
+      "c": "Bangalore",
+      "t": "Bharatnatyam",
+      "m": "Samarthanam (Sunadha)",
+      "k": "Individual",
+      "ph": "usha"
+    },
+    {
+      "id": 5,
+      "n": "Praveen",
+      "a": 0,
+      "c": "Bangalore",
+      "t": "Bharatnatyam",
+      "m": "Samarthanam (Sunadha)",
+      "k": "Individual",
+      "ph": "praveen"
+    },
+    {
+      "id": 6,
+      "n": "Sunadha Dance Troupe",
+      "a": 0,
+      "c": "Bangalore",
+      "t": "Dance",
+      "m": "Samarthanam (Sunadha)",
+      "k": "Group",
+      "ph": "troupe"
+    },
+    {
+      "id": 7,
+      "n": "Sunadha Band",
+      "a": 0,
+      "c": "Bangalore",
+      "t": "Singing & Music",
+      "m": "Samarthanam (Sunadha)",
+      "k": "Group",
+      "ph": "band"
+    }
+  ]
+}
